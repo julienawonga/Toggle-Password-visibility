@@ -3,15 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Toggle Password Visibility in JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <form action="#" method="post">
-            <h2>Login</h2>
-            <label for="username">Username</label>
-            <input type="text" name="username" placeholder="Username" id="username"  required>
-            <label for="password">Password</label>
-            <input type="password" name="password" placeholder="Password" id="password" required>
+        <h2>Login</h2>
+        <form action="#" method="post" id="form">
+            <div class="row">
+                <div class="item">
+                    <label for="username">Username</label>
+                    <br>
+                    <input type="text" name="username" placeholder="Username" id="username"  required>
+                </div>
+                <div class="item">
+                    <label for="password">Password</label>
+                    <br>
+                    <input type="password" name="password" placeholder="Password" id="password" required>
+                </div>
+            </div>
             <input type="submit" name="submit" id="submit" value="Login">
         </form>
     </div>
